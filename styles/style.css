@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    font-family: 'montserrat';
+    
+}
+header{
+    height:770px;
+    background: url(../images/header.jpg) top/cover no-repeat;
+}
+.bosh__sahifa{
+    display: flex;
+    padding:42px 55px;
+    justify-content: space-between;
+    text-align: end;
+}
+.ong_tomon{
+    display: flex;
+    align-items: flex-end;
+}
+.sahifa_text{
+    padding-right: 20px;
+}
+.sahifa_text p{
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight: 800;
+    color: black;
+}
+.sahifa_link{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight:bold ;
+    color: black;
+}
+.bosh__link{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+   
+}
+.bosh_navlink{
+    padding-right: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:20px;
+    font-weight:bold;
+    color: black;
+}
+.container{
+    padding: 50px 0 0 90px;
+    display: flex;
+}
+.sahna{
+    text-align: center;
+}
+.title_bir{
+    font-family:'Gabelisa';
+    font-size: 50px;
+}
+.title_ikki{
+    text-transform: uppercase;
+    font-family:'FrederickatheGreat'; 
+    font-weight: 100;
+    font-size: 90px;
+}
+.title_uch{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.palasa{  
+    margin: auto;
+    background: #ccb301;
+    height: 2px;
+    width: 440px;
+}
+.title_tort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family:'FrederickatheGreat';
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.tort__chap{
+    padding-left:15px;
+     font-size: 43px;
+}
+.title_besh{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 18px;
+    border:1px black solid;
+    padding: 15px 30px;
+}
+.img{
+    position:absolute;
+    bottom:0;
+    left:0;
+    transform:translateY(70%);
+}
+.main{
+    height: 2765px;
+}
+.main_lavha{
+    text-align: center;
+    padding-top: 85px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lavha_sarlavha{
+    text-transform: uppercase;
+    font-family:'FrederickatheGreat';
+    font-size: 50px;
+    color: black;
+}
+.lavha_ikki{
+    padding-top: 30px;
+    text-align: center;
+    width: 1062px;
+    line-height: 25px;
+    font-weight: 100;
+}
+.main_bir{
+    padding-top: 50px;
+    margin: auto;
+    width: 1348px;
+}
+.main_ikkirasm{
+    width: 1348px;
+}
+.main_ikki{
+    display: flex;
+    justify-content: space-between;
+   text-align: center;
+   padding-left:30px;
+    width: 1250px;
+}
+.main__sarlavha{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+    
+}
+.main__sarlavhaikki{
+    font-weight:100;
+    width: 335px;
+    padding-bottom: 40px;
+}
+.main__tepasi{
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.main_sarlavhalink{
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #ffe001;
+   padding: 20px;
+}
+.rasm__link{
+   display: flex;
+   justify-content: center;
+    padding-top: 115px;
+}
+.main_link1{
+    padding-right: 42px;
+    position: relative;
+}
+.main_link2{
+    display: flex;
+   flex-direction: column;
+   
+}
+.main__linka{
+    padding-bottom:31px;
+}
+.main_link1title{
+    color: white;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.main_linktext{
+   padding-top: 30px;
+    padding-left: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.main_link2title{
+    padding-left: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+}
+.link_ipsum{
+    padding-top:88px;
+    display: flex;
+    justify-content: center;  
+}
+.link_bolak{
+    text-align: left;
+    border: 1px #bebebe solid;
+    border-radius:5px;
+    padding:15px 80px;    
+}
+.link__ipsum{
+    padding:13px 13px;
+}
+.link__ipsun{
+    padding: 27px 13px;
+}
+.link_link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius:5px;
+    padding:14px 106px;
+    background: #ffe001;   
+}
+.footer{
+    height: 650px;
+    background: url(../images/BG\ Image.png) center/cover no-repeat;
+}
+.container_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 65px 87px 85px 100px;
+}
+.footer_chapici{
+    line-height:25px;
+    font-weight:100;
+    width: 516px;
+    color:#a1a1a1;
+}
+.footer__ikki{
+    padding-right: 60px;
+    display: flex;
+    padding-top: 70px;
+    justify-content:space-between; 
+    align-items: flex-end;
+}
+.footer_ong1{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.footer_ong2{
+    padding-left: 30px;
+   display: flex;
+   align-items: center;
+    text-decoration: none;
+    color:#c0c0c0;
+}
+.footer__uch{
+    padding-top: 170px;
+    display: flex;
+   justify-content: space-between;
+}
+.footer_linkici{
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
